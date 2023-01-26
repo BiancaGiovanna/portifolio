@@ -1,0 +1,31 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #eee;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #cb92b1 #302f3d;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #302f3d;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #cb92b1;
+  border-radius: 10px;
+  border: 3px groove #302f3d;
+}
