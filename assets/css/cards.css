@@ -139,6 +139,7 @@ a:hover::after {
   border-radius: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--bg-cards);
+  line-height: 35px;
 }
 
 .job {
@@ -176,4 +177,5 @@ p {
   border-radius: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--bg-cards);
+  line-height: 35px;
 }
