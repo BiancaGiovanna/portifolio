@@ -45,7 +45,6 @@ h3 {
   height: 300px;
   top: 0;
   display: flex;
-
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -134,7 +133,7 @@ a:hover::after {
   height: auto;
   display: flex;
   padding: 50px;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -178,4 +177,61 @@ p {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--bg-cards);
   line-height: 35px;
+}
+
+.project {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--bg-cards);
+  /* line-height: 35px */
+}
+
+.project>div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.projects {
+  width: 250px;
+  height: auto;
+  margin: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #5d5a8c;
+}
+
+.projects>p {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  line-height: 25px
+}
+
+.projects>img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.project>div>a::after {
+  content: '';
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
 }
