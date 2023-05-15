@@ -160,7 +160,7 @@ a:hover::after {
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 20px;
   color: var(--text-color);
 }
